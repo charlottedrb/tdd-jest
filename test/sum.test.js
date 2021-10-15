@@ -17,5 +17,5 @@ test('multiplies 1 by 3 to equal 3', () => {
     const firstNum = 1
     const secondNum = 3
     checkNumber(firstNum, secondNum)
-    expect(multiply(firstNum, secondNum)).toBe(2);
+    expect(multiply(firstNum, secondNum)).toBe(3);
 })
