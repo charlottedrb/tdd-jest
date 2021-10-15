@@ -6,7 +6,7 @@ const firstNumSum = 1
 const secondNumSum = 1
 
 const firstNumMultiply = 1
-const secondNumMultiply = 1
+const secondNumMultiply = 3
 
 const fizzNumber = 33
 const fizzBuzzNumber = 15
@@ -44,13 +44,13 @@ test('should return fizz', () => {
 })
 
 test('should return fizzbuzz', () => {
-    expect(fizzBuzz(fizzBuzzNumber)).toBe('Fizz')
+    expect(fizzBuzz(fizzBuzzNumber)).toBe('FizzBuzz')
 })
 
 test('should return buzz', () => {
-    expect(fizzBuzz(buzzNumber)).toBe('Fizz')
+    expect(fizzBuzz(buzzNumber)).toBe('Buzz')
 })
 
 test('should return number', () => {
-    expect(fizzBuzz(number)).toBe('Fizz')
+    expect(fizzBuzz(number)).toBe(number)
 })
