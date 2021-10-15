@@ -13,7 +13,11 @@ function romannumerals(number) {
     let index = 0
 
     do{
-        if(number < roman[index][0]) {
+        if(number == roman[index][0] - 1) {
+            result += roman[index + 2 ][1] + [index][1]
+            number -= number
+            continue
+        } else if(number < roman[index][0]) {
             if(index < roman.length - 1) index++
             continue
         } else {
