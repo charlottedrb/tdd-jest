@@ -1,5 +1,5 @@
 ### Status
-[![Build Status](https://app.travis-ci.com/github/charlottedrb/tdd-jest.svg?branch=master)](https://app.travis-ci.com/github/charlottedrb/tdd-jest)
+[![Build Status](https://app.travis-ci.com/charlottedrb/tdd-jest.svg?branch=master)](https://app.travis-ci.com/charlottedrb/tdd-jest)
 
 ## Setup
 
