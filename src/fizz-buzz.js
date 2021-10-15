@@ -10,6 +10,8 @@ function fizzBuzz(number) {
     return number
 }
 
+module.exports = fizzBuzz
+
 for (let number = 1; number <= 100; number++) {
     console.log(fizzBuzz(number))
 }
